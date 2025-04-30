@@ -15,7 +15,6 @@ NLP / Fine-Tuning / Prompt Engineering
 ## Goal
 To build a model that extracts structured values (e.g., PO numbers, invoice totals) from unstructured logistics text, reducing human intervention and parsing errors in real operations.
 
----
 
 ## File Structure
 
@@ -25,7 +24,7 @@ To build a model that extracts structured values (e.g., PO numbers, invoice tota
 - `README.md` — Project overview and usage
 - `requirements.txt` — Python packages (if applicable)
 
----
+
 
 ## Model Training Summary
 
@@ -37,7 +36,7 @@ To build a model that extracts structured values (e.g., PO numbers, invoice tota
 
 Final evaluation accuracy: **52.63%** on 19 mixed-format test prompts.
 
----
+
 
 ## Visuals
 
@@ -47,21 +46,21 @@ Final evaluation accuracy: **52.63%** on 19 mixed-format test prompts.
 ### Model Evaluation
 ![Evaluation Table](visuals/evaluation_table.png)
 
----
+
 
 ## How to Run (Basic Guide)
 1. Upload your `.jsonl` files to Google Colab.
 2. Install OpenAI with `!pip install openai`
 3. Use the notebook to fine-tune and evaluate the model.
 
----
+
 
 ## Use Cases
 - Extracting PO #s from scanned delivery emails
 - Parsing invoice totals for backend reporting
 - Building GPT-based logistic chatbots or form auto-filling
 
----
+
 
 ## 👤 Author
 **Grace Isiaka**  
