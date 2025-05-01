@@ -1,0 +1,6 @@
+{"messages": [{"role": "user", "content": "What\u2019s the PO number in: 'PO#TT-2024-ZX was recently updated.'"}, {"role": "assistant", "content": "PO#TT-2024-ZX"}]}
+{"messages": [{"role": "user", "content": "Find sender name: 'From: Dr. Henry Okafor <hokafor@shippingco.org>'"}, {"role": "assistant", "content": "Dr. Henry Okafor"}]}
+{"messages": [{"role": "user", "content": "Extract payment amount: 'Total paid: $3,780.45 for invoice INV-5983.'"}, {"role": "assistant", "content": "$3,780.45"}]}
+{"messages": [{"role": "user", "content": "Get client reference: 'Client Ref: CLT-X9Y8Z7'"}, {"role": "assistant", "content": "CLT-X9Y8Z7"}]}
+{"messages": [{"role": "user", "content": "Who is the recipient? 'To: Miss Funmi Adeyemi <funmi@deliverit.ca>'"}, {"role": "assistant", "content": "Miss Funmi Adeyemi"}]}
+{"messages": [{"role": "user", "content": "Extract the scheduled time: 'Appointment set for 9:15AM CST.'"}, {"role": "assistant", "content": "9:15AM CST"}]}
