@@ -3,6 +3,35 @@
 
 This project demonstrates how to fine-tune GPT-3.5 to extract structured fields like invoice numbers, PO references, delivery dates, and costs from messy, human-written logistics messages.
 
+---
+
+## 🛠️ Setup Instructions
+
+Follow the steps below to clone the project, install dependencies, and prepare your environment.
+
+### 📥 1. Clone the Repository
+
+```bash
+git clone https://github.com/code-whisperer-abiala/gpt-logistics-extraction.git
+cd gpt-logistics-extraction
+
+
+### 2. Create a virtual environment and activate it: 
+python -m venv venv venv\Scripts\activate
+
+### 3. Install dependencies: pip install -r requirements.txt
+
+
+### 4. Set your OpenAI API key:
+- Create a `.env` file in the project root
+- Add this line (with your own key):
+  ```
+  OPENAI_API_KEY=sk-...
+  ```
+
+### 5. Run test: python test_env.py
+
+
 ## Project Type
 NLP / Fine-Tuning / Prompt Engineering
 
